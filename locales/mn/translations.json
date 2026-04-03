@@ -1,0 +1,708 @@
+{
+  "features": {
+    "feed": {
+      "feed-card": {
+        "see-less": "Хураангуй",
+        "see-more": "Дэлгэрэнгүй"
+      },
+      "feed-progress-container": {
+        "progressing-feed-list": "Боловсруулж буй мэдээллийн жагсаалт"
+      },
+      "feed-menu-bottomsheet": {
+        "edit": "Засах",
+        "delete": "Устгах",
+        "report": "Мэдэгдэх",
+        "block": "Хэрэглэгчийг блоклох",
+        "block-toast": "Та {{name}}-г амжилттай блоклолоо"
+      },
+      "delete-feed-bottomsheet": {
+        "delete-title": "Та устгахдаа итгэлтэй байна уу?",
+        "cancel": "Болих",
+        "delete": "Устгах",
+        "deleted-message": "Таны мэдээллийг устгалаа"
+      },
+      "report-feed-bottomsheet": {
+        "title": "Та мэдэгдэхдээ итгэлтэй байна уу?",
+        "cancel": "Болих",
+        "report": "Мэдэгдэх",
+        "report-message": "Мэдээллийг мэдэгдлээ"
+      }
+    },
+    "be-creative": {
+      "trainees-submissions-container": {
+        "all-submissions": "Бүх илгээмж",
+        "view-all": "Бүгдийг харах"
+      },
+      "trainees-creativity-container": {
+        "empty-title": "Гарчиг хоосон",
+        "empty-description": "Тайлбар хоосон"
+      },
+      "article-list": {
+        "filter": "Блог шүүх",
+        "empty-title": "Блог хоосон",
+        "empty-description": "Блогын тайлбар хоосон"
+      },
+      "article-container": {
+        "posted": "Нийтэлсэн",
+        "comment-count": "Сэтгэгдэл ({{formattedCount}})"
+      },
+      "competition-card": {
+        "deadline-for-submission": "Илгээх эцсийн хугацаа",
+        "ongoing": "Үргэлжилж буй",
+        "closed": "Хаагдсан",
+        "incoming": "Тун удахгүй",
+        "entries": "оролцогчид",
+        "join": "Нэгдэх",
+        "results": "Үр дүн"
+      },
+      "competition-container": {
+        "help": "Тусламж",
+        "closed-title": "Тэмцээн дууссан",
+        "winners-title": "Тэмцээний ялагчид",
+        "comment-count": "Сэтгэгдэл ({{formattedCount}})",
+        "summary-of-competition": "Тэмцээний хураангуй",
+        "submit": "Илгээх"
+      },
+      "filter-article-bottomsheet": {
+        "empty-title": "Блог хоосон",
+        "empty-description": "Блогын тайлбар хоосон",
+        "categories": "Ангилал",
+        "keywords": "Түлхүүр үгс"
+      },
+      "special-articles-container": {
+        "view-all": "Бүгдийг харах"
+      },
+      "submission-container": {
+        "ongoing-title": "Манай тэмцээнд одоо нэгдээрэй",
+        "deadline-for-submission": "Илгээх эцсийн хугацаа",
+        "submit": "Илгээх",
+        "recent-submission-title": "Сүүлийн илгээмж",
+        "all-submission-title": "Бүх илгээмж",
+        "empty-title": "Гарчиг хоосон",
+        "empty-description": "Тайлбар хоосон"
+      },
+      "submission-state-item": {
+        "ongoing": "Үргэлжилж буй",
+        "closed": "Хаагдсан",
+        "incoming": "Тун удахгүй"
+      },
+      "my-submission-item": {
+        "submitted": "Илгээсэн"
+      }
+    },
+    "home": {
+      "home-review-container": {
+        "announcement-readings": "Зарлал унших",
+        "top-comments": "Шилдэг сэтгэгдлүүд",
+        "recent-posts": "Сүүлийн нийтлэлүүд",
+        "recommended-readings": "Санал болгож буй уншлага"
+      }
+    },
+    "comment": {
+      "comment-input": {
+        "add-comment": "Сэтгэгдэл бичих...",
+        "add-reply": "Хариу бичих...",
+        "edit-comment": "Сэтгэгдэл засах...",
+        "cancel-edit": "Сэтгэгдэл засахыг болих",
+        "replying-to": "Хариулж байна",
+        "cancel": "Болих",
+        "permission-title": "Зөвшөөрөл шаардлагатай",
+        "permission-sub-title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+        "permission-open-settings": "Тохиргоог нээх",
+        "permission-cancel": "Болих"
+      },
+      "comment-menu-bottomsheet": {
+        "edit": "Засах",
+        "report": "Мэдэгдэх",
+        "delete": "Устгах"
+      },
+      "delete-comment-bottomsheet": {
+        "delete-title": "Та устгахдаа итгэлтэй байна уу?",
+        "cancel": "Болих",
+        "delete": "Устгах",
+        "deleted-message": "Таны сэтгэгдлийг устгалаа"
+      },
+      "report-comment-bottomsheet": {
+        "title": "Та мэдэгдэхдээ итгэлтэй байна уу?",
+        "cancel": "Болих",
+        "report": "Мэдэгдэх",
+        "report-message": "Сэтгэгдлийг мэдэгдлээ"
+      },
+      "progressing-comment-asset-list": {
+        "progressing": "Боловсруулж байна"
+      },
+      "comment-item": {
+        "progressing": "Боловсруулж байна",
+        "add-reply": "Хариу бичих",
+        "hide-replies": "Хариултуудыг нуух",
+        "show-replies": "Хариултуудыг харах ({{count}})"
+      }
+    },
+    "trainers-world": {
+      "discussion": {
+        "search": "Түлхүүр үгээр хайх",
+        "empty-title": "Блог хоосон",
+        "empty-description": "Блогын тайлбар хоосон"
+      },
+      "discussion-item": {
+        "posted": "Нийтэлсэн"
+      },
+      "documents": {
+        "filter": "Блог шүүх",
+        "empty-title": "Блог хоосон",
+        "empty-description": "Блогын тайлбар хоосон",
+        "title": "Гарчиг",
+        "date": "Огноо",
+        "action": "Үйлдэл"
+      },
+      "filter-category-bottomsheet": {
+        "categories": "Ангилал",
+        "empty-title": "Гарчиг хоосон",
+        "empty-description": "Тайлбар хоосон"
+      },
+      "group-card": {
+        "go-discover": "Нээж илрүүлэх"
+      },
+      "new-to-share": {
+        "empty-title": "Блог хоосон",
+        "empty-description": "Блогын тайлбар хоосон"
+      },
+      "reply-item": {
+        "progressing": "Боловсруулж байна"
+      }
+    },
+    "article": {
+      "filter-bottom-sheet": {
+        "empty-title": "Гарчиг хоосон",
+        "empty-description": "Тайлбар хоосон",
+        "categories": "Ангилал",
+        "keywords": "Түлхүүр үгс"
+      },
+      "action-asset-bottomsheet": {
+        "image-title": "Зураг оруулах",
+        "video-title": "Видео оруулах",
+        "choose-gallery": "Галерейгаас сонгох",
+        "open-camera": "Камер нээх",
+        "add-iframe": "Embed код нэмэх /Youtube, vimeo/",
+        "notify-file": "500MB-аас дээш хэмжээтэй файл оруулах боломжгүй!"
+      },
+      "upload-asset-bottomsheet": {
+        "uploading": "Хуулж байна"
+      },
+      "add-iframe-bottomsheet": {
+        "link": "Embed код",
+        "link-placeholder": "Embed кодоо оруулна уу",
+        "link-required": "Embed код шаардлагатай",
+        "add": "Нэмэх"
+      }
+    },
+    "auth": {
+      "profile-image": {
+        "success-message": "Профайл зураг амжилттай",
+        "alert-permission-camera": {
+          "title": "Зөвшөөрөл шаардлагатай",
+          "sub-title": "Тохиргоо хэсэгт камерын хандалтыг зөвшөөрнө үү",
+          "open-settings": "Тохиргоог нээх",
+          "cancel": "Болих"
+        },
+        "alert-permission-library": {
+          "title": "Зөвшөөрөл шаардлагатай",
+          "sub-title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+          "open-settings": "Тохиргоог нээх",
+          "cancel": "Болих"
+        },
+        "menus": {
+          "title": "Цэс",
+          "open-camera": "Камер нээх",
+          "choose-gallery": "Галерейгаас сонгох",
+          "close": "Хаах"
+        }
+      }
+    },
+    "expert-qa": {
+      "expert-container": {
+        "empty-title": "Гарчиг хоосон",
+        "empty-description": "Тайлбар хоосон"
+      },
+      "expert-qa-item": {
+        "asked": "асуусан",
+        "solved": "Шийдэгдсэн",
+        "open": "Нээлттэй"
+      },
+      "questions-container": {
+        "filter": "Блог шүүх",
+        "empty-title": "Гарчиг хоосон",
+        "empty-description": "Тайлбар хоосон"
+      }
+    },
+    "notification": {
+      "notification-container": {
+        "title": "Мэдэгдэл",
+        "empty-title": "Мэдэгдлийн гарчиг хоосон",
+        "empty-description": "Мэдэгдлийн тайлбар хоосон"
+      }
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "Нэвтрэх",
+      "sub-title": "Тавтай морилно уу! Та өмнөх үлдээсэн зүйлсээ үргэлжлүүлж, бүх боломжуудыг бүрэн ашиглахын тулд нэвтрэх мэдээллээ оруулна уу",
+      "phone-input-placeholder": "Утасны дугаар",
+      "phone-input-error": "Утасны дугаар {{count}} урт байна",
+      "password-input-placeholder": "Нууц үг",
+      "password-input-error": "Нууц үг дор хаяж {{count}} тэмдэгт байх ёстой.",
+      "sign-in": "Нэвтрэх",
+      "remember-me": "Намайг сана",
+      "forgot-password": "Нууц үг мартсан"
+    },
+    "contact-us": {
+      "title": "Бидэнтэй холбогдох",
+      "close": "Хаах",
+      "input-subject-placeholder": "Гарчиг оруулах",
+      "input-subject-error": "Гарчиг оруулна уу",
+      "input-description-placeholder": "Тайлбараа бичнэ үү",
+      "input-description-error": "Тайлбараа бичнэ үү",
+      "send": "Илгээх",
+      "success-message": "Админ руу амжилттай илгээлээ"
+    },
+    "contact": {
+      "title": "Бидэнтэй холбогдох",
+      "close": "Хаах",
+      "input-phone-placeholder": "Утасны дугаар",
+      "input-phone-error": "Утасны дугаар {{count}} урт байна",
+      "input-subject-placeholder": "Гарчиг оруулах",
+      "input-subject-error": "Гарчиг оруулна уу",
+      "input-description-placeholder": "Тайлбараа бичнэ үү",
+      "input-description-error": "Тайлбараа бичнэ үү",
+      "send": "Илгээх",
+      "success-message": "Админ руу амжилттай илгээлээ"
+    },
+    "do-feed": {
+      "close": "Хаах",
+      "new-post": "Шинэ нийтлэл",
+      "post": "Нийтлэх",
+      "uploading": "Хуулж байна",
+      "update-post": "Нийтлэл шинэчлэх",
+      "update": "Шинэчлэх",
+      "input-placeholder": "Энд нийтлэлээ бичнэ үү...",
+      "input-update-placeholder": "Энд нийтлэлээ шинэчилнэ үү...",
+      "notify-file": "500MB-аас дээш хэмжээтэй файл оруулах боломжгүй!",
+      "alert-permission-library": {
+        "title": "Зөвшөөрөл шаардлагатай",
+        "sub-title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+        "open-settings": "Тохиргоог нээх",
+        "cancel": "Болих"
+      },
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      },
+      "alert-permission-camera": {
+        "title": "Зөвшөөрөл шаардлагатай",
+        "sub-title": "Тохиргоо хэсэгт камерын хандалтыг зөвшөөрнө үү",
+        "open-settings": "Тохиргоог нээх",
+        "cancel": "Болих"
+      },
+      "alert-choose-video-or-photo": {
+        "photo": "Зураг авах",
+        "video": "Видео хийх",
+        "close": "Хаах",
+        "choose": "Сонгох"
+      }
+    },
+    "do-question": {
+      "ask-question": "Асуулт асуух",
+      "save": "Хадгалах",
+      "close": "Хаах",
+      "input-title-placeholder": "Асуултын гарчгаа оруулна уу",
+      "input-title-error": "Гарчиг шаардлагатай",
+      "input-body-placeholder": "Асуултаа бичнэ үү",
+      "input-body-error": "Тайлбар шаардлагатай",
+      "created-message": "Амжилттай үүсгэлээ",
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      }
+    },
+    "submit-competition": {
+      "close": "Хаах",
+      "title": "Илгээх",
+      "save": "Хадгалах",
+      "input-title-placeholder": "Гарчгаа оруулна уу",
+      "input-title-error": "Гарчиг шаардлагатай",
+      "input-body-placeholder": "Энд бичнэ үү",
+      "input-body-error": "Бие хэсэг шаардлагатай",
+      "submit-success": "Амжилттай илгээлээ",
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      }
+    },
+    "user-info": {
+      "training-begin-date": "Сургалт эхлэх огноо"
+    },
+    "home": {
+      "community-sharing": "Олон нийтийн хуваалцах",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "article": {
+      "posted": "Нийтэлсэн",
+      "audio-podcast": "Аудио подкаст",
+      "title": "Хураангуй файлууд",
+      "sub-title": "Өдөр өнжүүлэх төвийн практик нөөц, бүтээлч санаанууд болон олон нийтийн дэмжлэгийн нэгдсэн төв",
+      "column-title1": "Гарчиг",
+      "column-title2": "Үүсгэсэн огноо",
+      "column-title3": "Үйлдэл",
+      "column-cell3": "Харах",
+      "answer-from-expert": "Мэргэжилтний хариулт",
+      "comment-count": "Сэтгэгдэл ({{formattedCount}})"
+    },
+    "feed-id": {
+      "comment-count": "Сэтгэгдэл ({{formattedCount}})"
+    },
+    "profile": {
+      "firstname": "Нэр",
+      "lastname": "Овог",
+      "gender": "Хүйс",
+      "phone": "Утасны дугаар",
+      "birthday": "Төрсөн өдөр",
+      "email": "Имэйл",
+      "education-degree": "Боловсролын зэрэг",
+      "major": "Мэргэжил",
+      "training-expierence": "Сургалтын туршлага",
+      "working-expierence": "Ажлын туршлага",
+      "working-position": "Ажлын байр",
+      "icc-name": "ICC нэр",
+      "icc-position": "ICC албан тушаал",
+      "moet-training-classname": "БШУЯ сургалтын ангийн нэр",
+      "moet-training-groupname": "БШУЯ сургалтын бүлгийн нэр",
+      "training-begin-date": "Сургалт эхлэх огноо",
+      "training-gradution-date": "Сургалт төгсөх огноо",
+      "blocked-users": "Блоклосон хэрэглэгчид",
+      "female": "Эмэгтэй",
+      "male": "Эрэгтэй"
+    },
+    "trainers-world-id": {
+      "new-to-share": "Шинээр хуваалцах",
+      "discussions": "Хэлэлцүүлгүүд",
+      "documents": "Баримт бичгүүд",
+      "private-group": "Хувийн бүлэг",
+      "members": "{{count}} гишүүн",
+      "help": "Тусламж"
+    },
+    "change-password": {
+      "input-old-password-placeholder": "Хуучин нууц үг",
+      "input-old-password-error": "Шаардлагатай",
+      "input-new-password-placeholder": "Шинэ нууц үг",
+      "input-new-password-error": "Шаардлагатай",
+      "input-new-password-again-placeholder": "Шинэ нууц үг (дахин)",
+      "input-new-password-again-error": "Шаардлагатай",
+      "passwords-not-match-error": "Шинэ нууц үг таарахгүй байна",
+      "success-message": "Нууц үг амжилттай солигдлоо",
+      "change-password": "Нууц үг солих",
+      "cannot-passwords": "Нууц үг ижил байж болохгүй",
+      "change": "Солих"
+    },
+    "expert-qa": {
+      "questions": "Асуулт хариулт",
+      "our-experts": "Манай мэргэжилтнүүд"
+    },
+    "expert-info": {
+      "description": "Тайлбар",
+      "bio": "Товч намтар"
+    },
+    "my-saving": {
+      "all": "Бүгд",
+      "select-section": "Хэсэг сонгох",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "shared-resources": {
+      "all": "Бүгд",
+      "select-category": "Ангилал сонгох",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "be-creative-id": {
+      "detail": "Дэлгэрэнгүй",
+      "submissions": "Илгээмжүүд"
+    },
+    "be-creative-detail": {
+      "articles": "Нийтлэлүүд",
+      "trainees-creativity": "Суралцагчдын бүтээлч байдал",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "be-creative": {
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "online-training-articles": {
+      "further-reading-article": "Цаашид унших нийтлэл",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "online-training": {
+      "all-groups": "Бүх бүлгүүд",
+      "for-you": "Танд зориулсан",
+      "further-reading-article": "Цаашид унших нийтлэл",
+      "training-videos": "Сургалтын видео",
+      "discussion-topics": "Хэлэлцүүлгийн сэдвүүд",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон",
+      "help": "Тусламж"
+    },
+    "training-videos": {
+      "training-videos": "Сургалтын видео",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "home-special": {
+      "header-title": "Гэр",
+      "announcement-readings": "Зарлал уншлага",
+      "top-comments": "Шилдэг сэтгэгдлүүд",
+      "recent-posts": "Сүүлийн нийтлэлүүд",
+      "recommended-readings": "Санал болгож буй уншлага"
+    },
+    "notification": {
+      "title": "Мэдэгдэл",
+      "announcement": "Зарлал",
+      "notification": "Мэдэгдэл",
+      "success-mark-all-read": "Та бүгдийг уншсан гэж амжилттай тэмдэглэлээ",
+      "mark-all-read": "Бүгдийг уншсанаар тэмдэглэх"
+    },
+    "trainees-submissions": {
+      "all-submissions": "Бүх илгээмж",
+      "empty-list-title": "Жагсаалт хоосон гарчиг",
+      "empty-list-description": "Жагсаалт хоосон тайлбар"
+    },
+    "add-submission": {
+      "header-title": "Илгээмж нэмэх",
+      "add": "Нэмэх",
+      "embed-error": "Зөвхөн embed код оруулна уу",
+      "added-success-message": "Илгээмж амжилттай нэмэгдлээ",
+      "alert_permission_library": {
+        "title": "Зөвшөөрөл шаардлагатай",
+        "sub_title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+        "open_settings": "Тохиргоог нээх",
+        "cancel": "Болих"
+      },
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      },
+      "form": {
+        "title": "Гарчиг",
+        "title-placeholder": "Гарчгаа оруулна уу",
+        "title-validation-message": "Гарчиг шаардлагатай",
+        "body": "Бие",
+        "body-placeholder": "Энд бичнэ үү",
+        "body-validation-message": "Бие хэсэг шаардлагатай",
+        "thumbnail": "Өнгөц зураг",
+        "thumbnail-placeholder": "Өнгөц зураг нэмэх",
+        "thumbnail-validation-message": "Өнгөц зураг шаардлагатай"
+      }
+    },
+    "add-competition": {
+      "header-title": "Тэмцээн нэмэх",
+      "add": "Нэмэх",
+      "embed-error": "Зөвхөн embed код оруулна уу",
+      "added-success-message": "Илгээмж амжилттай нэмэгдлээ",
+      "alert_permission_library": {
+        "title": "Зөвшөөрөл шаардлагатай",
+        "sub_title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+        "open_settings": "Тохиргоог нээх",
+        "cancel": "Болих"
+      },
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      },
+      "form": {
+        "title": "Гарчиг",
+        "title-placeholder": "Гарчгаа оруулна уу",
+        "title-validation-message": "Гарчиг шаардлагатай",
+        "body": "Бие",
+        "body-placeholder": "Энд бичнэ үү",
+        "body-validation-message": "Бие хэсэг шаардлагатай",
+        "thumbnail": "Өнгөц зураг",
+        "thumbnail-placeholder": "Өнгөц зураг нэмэх",
+        "thumbnail-validation-message": "Өнгөц зураг шаардлагатай"
+      }
+    },
+    "add-question": {
+      "header-title": "Асуулт нэмэх",
+      "add": "Нэмэх",
+      "added-success-message": "Асуулт амжилттай нэмэгдлээ",
+      "alert_permission_library": {
+        "title": "Зөвшөөрөл шаардлагатай",
+        "sub_title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+        "open_settings": "Тохиргоог нээх",
+        "cancel": "Болих"
+      },
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      },
+      "form": {
+        "title": "Гарчиг",
+        "title-placeholder": "Гарчгаа оруулна уу",
+        "title-validation-message": "Гарчиг шаардлагатай",
+        "body": "Бие",
+        "body-placeholder": "Энд бичнэ үү",
+        "body-validation-message": "Бие хэсэг шаардлагатай",
+        "thumbnail": "Өнгөц зураг",
+        "thumbnail-placeholder": "Өнгөц зураг нэмэх",
+        "thumbnail-validation-message": "Өнгөц зураг шаардлагатай"
+      }
+    },
+    "be-creative-article": {
+      "detail": "Дэлгэрэнгүй",
+      "trainees-creativity": "Суралцагчдын бүтээлч байдал"
+    },
+    "user-agreement": {
+      "title": "Үйлчилгээний нөхцөл",
+      "accept": "Үйлчилгээний нөхцөлийг зөвшөөрөх",
+      "submit": "Илгээх",
+      "log-out": "Гарах",
+      "required": "Шаардлагатай"
+    },
+    "search": {
+      "seach-input": "Зүйлс хайх",
+      "empty-title": "Гарчиг хоосон",
+      "empty-description": "Тайлбар хоосон"
+    },
+    "trainers-world": {
+      "empty-title": "Бүлэг хоосон",
+      "empty-description": "Бүлгийн жагсаалт хоосон"
+    },
+    "my-submissions": {
+      "empty-title": "Санал хоосон",
+      "empty-description": "Танд одоогоор үүсгэсэн санал алга байна"
+    },
+    "update-submission": {
+      "header-title": "Санал",
+      "update": "Засах",
+      "embed-error": "Зөвхөн embed код оруулна уу",
+      "updated-success-message": "Илгээмж амжилттай засагдлаа",
+      "alert_permission_library": {
+        "title": "Зөвшөөрөл шаардлагатай",
+        "sub_title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+        "open_settings": "Тохиргоог нээх",
+        "cancel": "Болих"
+      },
+      "changes-alert": {
+        "title": "Өөрчлөлт хийгдлээ!",
+        "sub-title": "Та мэдээллийг нийтлэхгүйгээр гарахдаа итгэлтэй байна уу?",
+        "yes": "Тийм",
+        "no": "Үгүй"
+      },
+      "form": {
+        "title": "Гарчиг",
+        "title-placeholder": "Гарчгаа оруулна уу",
+        "title-validation-message": "Гарчиг шаардлагатай",
+        "body": "Бие",
+        "body-placeholder": "Бие хэсгийг оруулна уу",
+        "body-validation-message": "Бие хэсэг шаардлагатай",
+        "thumbnail": "Өнгөц зураг",
+        "thumbnail-placeholder": "Өнгөц зураг засах",
+        "thumbnail-validation-message": "Өнгөц зураг шаардлагатай"
+      }
+    }
+  },
+  "components": {
+    "audio-item": {
+      "play-now": "Одоо тоглуулах",
+      "pause-now": "Одоо зогсоох"
+    },
+    "access-denied-container": {
+      "permission-denied-title": "Зөвшөөрөл татгалзсан",
+      "permission-denied-description": "Танд энэ хуудсанд хандах зөвшөөрөл байхгүй байна."
+    },
+    "comment-list-empty": {
+      "title": "Одоогоор сэтгэгдэл алга",
+      "description": "Анхны сэтгэгдлийг үлдээгээрэй!"
+    },
+    "search-input": {
+      "search": "Хайх"
+    },
+    "custom-drawer-contents": {
+      "log-out": "Гарах",
+      "privacy-policy": "Нууцлалын бодлого",
+      "terms-and-conditions": "Үйлчилгээний нөхцөл",
+      "online-tutorial": "Онлайн хичээл",
+      "contact-us": "Бидэнтэй холбогдох",
+      "copyright": "Зохиогчийн эрх \u00a9{{year}} 1GiaDinhLon. Бүх эрх хуулиар хамгаалагдсан"
+    },
+    "online-training-container": {
+      "select-your-group": "Та бүлгээс сонгоно уу"
+    },
+    "see-more-text": {
+      "see-less": "Хураангуй",
+      "see-more": "Дэлгэрэнгүй"
+    }
+  },
+  "common": {
+    "unblock": "Блокоос гаргах",
+    "empty-list-title": "Блоклосон хэрэглэгч байхгүй",
+    "empty-list-description": "Та одоогоор хэн нэгнийг блоклоогүй байна.",
+    "fixed-type": "",
+    "sections": {
+      "shared-resources-main": "Хуваалцсан материал",
+      "trainers-world-main": "Багшийн ертөнц",
+      "online-training-main": "Онлайн сургалт",
+      "expert-qa-main": "Мэргэжилтний асуулт хариулт",
+      "be-creative-main": "Бүтээлч булан",
+      "audio-podcast-sub": "Аудио подкаст",
+      "supplementary-training-material-sub": "Нэмэлт материал",
+      "featured-articles-sub": "Онцлох нийтлэлүүд",
+      "further_reading_article": "Цаашид унших нийтлэл",
+      "media-sub": "Бичлэг",
+      "news-and-stories-sub": "Мэдээ, түүхүүд",
+      "homemade-toys-sub": "Гэрийн нөхцөлд хийсэн тоглоом",
+      "play-activity-cards-sub": "Тоглоомын үйл ажиллагааны картууд",
+      "online-competitions-sub": "Онлайн тэмцээнүүд"
+    },
+    "pages-name": {
+      "home": "Нүүр",
+      "be-creative": "Бүтээлч булан",
+      "online-training": "Онлайн сургалт",
+      "notification": "Мэдэгдэл",
+      "more": "Дэлгэрэнгүй",
+      "community-sharing": "Олон нийтийн хуваалцах",
+      "trainers-world": "Багшийн ертөнц",
+      "shared-resources": "Хуваалцсан материал",
+      "leaderboard": "Тэргүүлэгчдийн самбар",
+      "my-saving": "Миний хадгалсан",
+      "my-profile": "Миний бүртгэл",
+      "change-password": "Нууц үг солих",
+      "expert-qa": "Мэргэжилтний асуулт хариулт",
+      "my-submissions": "Миний илгээсэн"
+    },
+    "alert-permission-camera": {
+      "title": "Зөвшөөрөл шаардлагатай",
+      "sub-title": "Тохиргоо хэсэгт камерын хандалтыг зөвшөөрнө үү",
+      "open-settings": "Тохиргоог нээх",
+      "cancel": "Болих"
+    },
+    "alert-permission-library": {
+      "title": "Зөвшөөрөл шаардлагатай",
+      "sub-title": "Тохиргоо хэсэгт зургийн хандалтыг зөвшөөрнө үү",
+      "open-settings": "Тохиргоог нээх",
+      "cancel": "Болих"
+    }
+  }
+}
